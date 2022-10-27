@@ -1,0 +1,40 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.small-12 .img img{
+   width: 100%;
+}
+p{
+    margin: 20px 0;
+}
+
+.meta.no-bylines,.articleFooter .tags, body.labFn-edit .labDs-bodytext {
+     display:none;
+}
+
+#searchbox .logo img{
+     margin-top: -5px;
+     max-height: 70px;
+     max-width: 120px
+}
+
+li{
+      list-style: none;
+}
+li::before{
+     content: "\2022";
+     color: black;
+     font-weight: bold;
+     width: 1em;*/
+     margin-left: -1em;
+}
+
+@media (max-width: 768px) {
+li::before{
+     content: "";
+}
+header#nav {
+   width: 100%;
+}
+}
